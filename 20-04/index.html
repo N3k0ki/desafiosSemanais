@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Senha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Validador de Senha</h2>
+        <p>Digite uma senha para verificar se ela é segura.</p>
+        
+
+        <!-- faz com que os caracteres digitados fiquem ocultos na tela -->
+        <input id="senhaInput" placeholder="Digite sua senha">
+
+        <!-- O elemento <button onclick="validarSenha()">Verificar Senha</button> cria um botão que o usuário pode clicar para executar uma ação.
+        O atributo onclick="validarSenha()" indica que, ao clicar no botão, será chamada a função chamada validarSenha() que está definida no arquivo JavaScript -->
+        <button onclick="validarSenha()">Verificar Senha</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
